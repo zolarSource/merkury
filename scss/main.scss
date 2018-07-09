@@ -1,0 +1,173 @@
+// color variabes
+$blue: #5584ff;
+$dark: #0e1a35;
+$grey: #8492af;
+
+//basics
+html{
+	font-size: 10px;
+}
+li{
+	list-style-type: none;
+}
+a:hover{
+	text-decoration: none;
+}
+.grey{
+	color: $grey;
+}
+.blue{
+	color: $blue;
+}
+.thin {
+	font-family: "Roboto - Thin";
+}
+header,
+.drag-and-drop{
+	height: 100vh;
+	background: url(../img/graph.png) no-repeat $dark;
+	background-position: center center;
+	padding-top: 6.7rem;
+	font-family: Roboto;
+}
+
+
+//header	
+//top nav
+.top-nav_menu{
+	display: flex;
+	align-items: center;
+	& li a{
+		color: #fff;
+		font-size: 1.8rem;
+		margin-right: 5rem;
+	}
+	& li a:hover{
+		transition: .5s;
+		
+	}
+	& li:last-child a{ //style for the last child
+		color: $blue;
+		border: 1px solid #fff;
+		background-color: #fff;
+		border-radius: 2.4rem;
+		padding: .5rem 3rem;
+		transition: .5s;
+	}
+	& li:last-child a:hover{
+		transition: .5s;
+		border: 1px solid $blue;
+		background-color: $blue;
+		color: #fff;
+	}
+}
+
+// headings of the header
+.main-title{
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	margin-top: 19.5rem;
+	& h1,
+	& h4{
+		text-align: center;
+	}
+	& h1{
+		margin: 0;
+		font-size: 6rem;
+		font-weight: 400;
+	}
+	& h4{
+		margin-top: 1.8rem;
+		font-size: 3.6rem;
+	}
+}
+
+// style for main img
+.main-img{
+	display: flex;
+	justify-content: center;
+	margin-top: 7.1rem;
+	& img{
+		max-width: 100%;
+		height: auto;
+	}
+}
+
+// features
+.features{
+	margin-top: 40rem;
+	font-family: Roboto;
+}
+.feature-block{
+	text-align: center;
+	& h4 {
+		margin-top: 6rem;
+		font-size: 2.4rem;
+		font-weight: 700;
+	}
+	& p {
+		font-size: 1.8rem;
+		margin: 0;
+		margin-bottom: 5rem;
+	}
+	& a {
+		font-size: 1.8rem;
+		color: #000;
+		font-weight: 700;
+		margin-top:  5rem;
+		border: 1px solid rgba(132, 146, 175, 0.3);
+		border-radius: 2.4rem;
+		padding: .8rem 6rem;
+		transition: .5s;
+	}
+	& a:hover {
+		transition: .5s;
+		border: 1px solid $blue;
+		background-color: $blue;
+		color: #fff;
+	}
+}
+  
+//all you need section
+.all-you-need{
+	margin-top: 20rem;
+}
+.all-you-need-block{
+	& h1{
+		font-family: "Roboto - Thin";
+		font-size: 6rem;
+	}
+	& p {
+		font-size: 1.38rem;
+	}
+	& span{
+		display: block;
+		font-size: 1.5rem;
+		margin-top: 2rem;
+		& img{
+			width: 18px;
+			height: 18px;
+			margin-right: .5rem;
+		}
+	}
+}
+
+
+// drag-and-drop section
+.drag-and-drop{
+	margin-top: 10rem;
+	height: 70rem;
+	color: #fff;
+}
+.drag-and-drop-block{
+	& h4{
+		display: inline-block;
+		margin-right: 10rem;
+	}
+}
+.drag-and-drop-text{
+	& h2{
+		font-size: 2rem;
+	}
+}

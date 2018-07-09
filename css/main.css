@@ -16,7 +16,8 @@ a:hover {
 .thin {
   font-family: "Roboto - Thin"; }
 
-header#header {
+header,
+.drag-and-drop {
   height: 100vh;
   background: url(../img/graph.png) no-repeat #0e1a35;
   background-position: center center;
@@ -100,3 +101,31 @@ header#header {
 
 .all-you-need {
   margin-top: 20rem; }
+
+.all-you-need-block h1 {
+  font-family: "Roboto - Thin";
+  font-size: 6rem; }
+
+.all-you-need-block p {
+  font-size: 1.38rem; }
+
+.all-you-need-block span {
+  display: block;
+  font-size: 1.5rem;
+  margin-top: 2rem; }
+  .all-you-need-block span img {
+    width: 18px;
+    height: 18px;
+    margin-right: .5rem; }
+
+.drag-and-drop {
+  margin-top: 10rem;
+  height: 70rem;
+  color: #fff; }
+
+.drag-and-drop-block h4 {
+  display: inline-block;
+  margin-right: 10rem; }
+
+.drag-and-drop-text h2 {
+  font-size: 2rem; }
