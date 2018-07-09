@@ -1,0 +1,102 @@
+html {
+  font-size: 10px; }
+
+li {
+  list-style-type: none; }
+
+a:hover {
+  text-decoration: none; }
+
+.grey {
+  color: #8492af; }
+
+.blue {
+  color: #5584ff; }
+
+.thin {
+  font-family: "Roboto - Thin"; }
+
+header#header {
+  height: 100vh;
+  background: url(../img/graph.png) no-repeat #0e1a35;
+  background-position: center center;
+  padding-top: 6.7rem;
+  font-family: Roboto; }
+
+.top-nav_menu {
+  display: flex;
+  align-items: center; }
+  .top-nav_menu li a {
+    color: #fff;
+    font-size: 1.8rem;
+    margin-right: 5rem; }
+  .top-nav_menu li a:hover {
+    transition: .5s; }
+  .top-nav_menu li:last-child a {
+    color: #5584ff;
+    border: 1px solid #fff;
+    background-color: #fff;
+    border-radius: 2.4rem;
+    padding: .5rem 3rem;
+    transition: .5s; }
+  .top-nav_menu li:last-child a:hover {
+    transition: .5s;
+    border: 1px solid #5584ff;
+    background-color: #5584ff;
+    color: #fff; }
+
+.main-title {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  margin-top: 19.5rem; }
+  .main-title h1,
+  .main-title h4 {
+    text-align: center; }
+  .main-title h1 {
+    margin: 0;
+    font-size: 6rem;
+    font-weight: 400; }
+  .main-title h4 {
+    margin-top: 1.8rem;
+    font-size: 3.6rem; }
+
+.main-img {
+  display: flex;
+  justify-content: center;
+  margin-top: 7.1rem; }
+  .main-img img {
+    max-width: 100%;
+    height: auto; }
+
+.features {
+  margin-top: 40rem;
+  font-family: Roboto; }
+
+.feature-block {
+  text-align: center; }
+  .feature-block h4 {
+    margin-top: 6rem;
+    font-size: 2.4rem;
+    font-weight: 700; }
+  .feature-block p {
+    font-size: 1.8rem;
+    margin: 0;
+    margin-bottom: 5rem; }
+  .feature-block a {
+    font-size: 1.8rem;
+    color: #000;
+    font-weight: 700;
+    margin-top: 5rem;
+    border: 1px solid rgba(132, 146, 175, 0.3);
+    border-radius: 2.4rem;
+    padding: .8rem 6rem;
+    transition: .5s; }
+  .feature-block a:hover {
+    transition: .5s;
+    border: 1px solid #5584ff;
+    background-color: #5584ff;
+    color: #fff; }
+
+.all-you-need {
+  margin-top: 20rem; }
